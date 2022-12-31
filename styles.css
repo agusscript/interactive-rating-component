@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');  /*400,700*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 :root {
     --Orange: hsl(25, 97%, 53%);
@@ -144,6 +144,30 @@ main {
 
 .submitted {
     display: none;
+}
+
+.attribution {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    color: var(--White);
+}
+
+.attribution p {
+    margin: 0.7rem;
+    height: 0.7rem;
+}
+
+.attribution a {
+    color: var(--Orange);
+}
+
+.attribution a:hover {
+    color: var(--Light-Grey);
 }
 
 
