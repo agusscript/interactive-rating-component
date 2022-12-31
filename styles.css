@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');  /*400,700*/
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Darl-Blue-2: #1d232c;
+    --Dark-Blue-3:  #202731;
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Overpass', serif;
+    background-color: var(--Very-Dark-Blue);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 400px;
+    height: 410px;
+    background-color: var(--Darl-Blue-2);
+    box-sizing: border-box;
+    padding: 1.7rem 2rem;
+    border-radius: 1.7rem;
+}
+
+.icon-container {
+    width: 44px;
+    height: 44px;
+    background-color: var(--Dark-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.principal h1 {
+    color: var(--White);
+    margin-top: 2rem;
+    height: 1.7rem;
+}
+
+.principal p {
+    color: var(--Medium-Grey);
+    line-height: 1.5rem;
+}
+
+.select-option {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    padding: 0.6rem 0;
+}
+
+.select-option button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--Dark-Blue);
+    color: var(--Medium-Grey);
+    font-size: 1rem;
+    font-family: 'Overpass', serif;
+    font-weight: 700;
+}
+
+.select-option button:hover {
+    cursor: pointer;
+    color: var(--White);
+    background-color: var(--Light-Grey);
+}
+
+.select-option button:focus {
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+.btn-submit {
+    margin-top: 1.7rem;
+    width: 98%;
+    height: 45px;
+    border: none;
+    background-color: var(--Orange);
+    color: var(--White);
+    font-family: 'Overpass', serif;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 2.7rem;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    color: var(--Orange);
+    background-color: var(--White);
+}
+
+.submitted {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.submitted div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    width: 200px;
+    height: 30px;
+    background-color: var(--Dark-Blue);
+    border-radius: 1rem;
+}
+
+.user-selection {
+    height: 14px;
+    color: var(--Orange);
+}
+
+.submitted h2 {
+    color: var(--White);
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    height: 1.4rem;
+}
+
+.final-p {
+    color: var(--Medium-Grey);
+    line-height: 1.5rem;
+}
+
+.submitted {
+    display: none;
+}
+
+
