@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +7,9 @@
   <title>Interactive rating component</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
   <main>
+
     <div class="card principal">
       <div class="icon-container">
         <img src="images/icon-star.svg" alt="icon star">
@@ -19,27 +18,25 @@
       <p>Please let us know how we did with your support request. All feedback is appreciated
         to help us improve our offering!</p>
       <div class="select-option">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
+        <button class="btn-1">1</button>
+        <button class="btn-2">2</button>
+        <button class="btn-3">3</button>
+        <button class="btn-4">4</button>
+        <button class="btn-5">5</button>
       </div>
       <button class="btn-submit">SUBMIT</button>
     </div>
 
     <div class="card submitted">
       <img src="images/illustration-thank-you.svg" alt="illustration thank you">
-
       <div>
-        <p class="user-selection">You selected <span></span><!-- Add rating here --> out of 5</p>
+        <p class="user-selection">You selected<span class="num-selected"></span>out of 5</p>
       </div>
-      
       <h2>Thank you!</h2>
-
       <p class="final-p">We appreciate you taking the time to give a rating. If you ever need more support,
         don't hesitate to get in touch!</p>
     </div>
+
   </main>
   <footer class="attribution">
     <p>Challenge by <a href="https://www.frontendmentor.io/profile/agusscript" target="_blank">Frontend Mentor</a></p>
@@ -47,5 +44,4 @@
   </footer>
   <script src="index.js"></script>
 </body>
-
 </html>
