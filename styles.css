@@ -175,3 +175,9 @@ main {
     display: none;
   }
 }
+
+@media(max-width: 800px) {
+  .attribution {
+    display: none;
+  }
+}
