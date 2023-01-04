@@ -169,3 +169,9 @@ main {
 .attribution a:hover {
   color: var(--Light-Grey);
 }
+
+@media(max-height: 540px) {
+  .attribution {
+    display: none;
+  }
+}
